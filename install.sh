@@ -39,6 +39,6 @@ rm -rf "/home/$user_name/.config/*"
 cp -af "$dir/." "/home/$user_name/.config/"
 
 EOF
-} &> /dev/null
+}
 
 echo "Finished installation. Reboot your computer..."
