@@ -2,7 +2,7 @@
 
 # Install all pacman packages
 echo "Installing basic packages..."
-pacman -S --noconfirm nvidia sudo git vim nano fish base-devel xorg ligthdm lightdm-gtk-greeter qtile pulseaudio pavucontrol alacritty &> /dev/null
+pacman -S --noconfirm nvidia sudo git vim nano fish base-devel xorg lightdm lightdm-gtk-greeter qtile pulseaudio pavucontrol alacritty &> /dev/null
 
 # Enable lightdm
 systemctl enable lightdm &> /dev/null
