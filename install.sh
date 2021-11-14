@@ -35,7 +35,8 @@ yay --noconfirm -S google-chrome pfetch
 # Configure your system
 echo "Configuring your system..."
 dir="$(dirname "$(realpath $0)")/config"
-cp -a "$dir/." "/home/$user_name/.config/"
+rm -rf "/home/$user_name/.config/*"
+cp -af "$dir/." "/home/$user_name/.config/"
 
 EOF
 } &> /dev/null
